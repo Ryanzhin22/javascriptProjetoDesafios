@@ -1,0 +1,82 @@
+.calculadoraDiv {
+    width: 400px;
+    height: 500px;
+    top: 130px;
+    left: -420px;
+    position: absolute;
+    display: flex;
+    transition: .6s ease;
+}
+
+.calcExibir {
+    left: 0px !important;
+}
+
+.conteudoCalc {
+    width: 380px;
+    height: 500px;
+    background-color: #f1f1f1;
+}
+
+.calcTitle {
+    font-size: 16px;
+    font-weight: 300;
+    color: #666;
+    padding: 3px;
+}
+
+.currentOperation {
+    padding-right: 6px;
+    padding-bottom: 8px;
+    height: 30px;
+    overflow-wrap: break-word;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: right;
+}
+
+.buttonsContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 3px;
+    padding: 6px;
+}
+
+.buttonsContainer .btnCalc {
+    border: 1px solid transparent;
+    border-radius: 0;
+    height: 80px;
+    font-size: 20px;
+    background-color: #DBDBDB;
+    cursor: pointer;
+}
+
+.buttonsContainer .numberBtnCalc {
+    background-color: #e9e9e9;
+}
+
+.buttonsContainer .btnCalc:hover {
+    background-color: #BABABA;
+    border-color: #999;
+}
+
+.buttonsContainer .btnEqual {
+    grid-column: span 2;
+    background-color: #75a5CB;
+}
+
+.buttonsContainer .btnEqual:hover {
+    background-color: #3a91d8;
+}
+
+.abaCalc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 50px;
+    background-color: rgba(128, 128, 128, 0.2);
+    border-radius: 0px 7px 7px 0px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}

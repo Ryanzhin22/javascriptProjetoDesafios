@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;900&family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+
+.cronometroDiv {
+    width: 670px;
+    height: 300px;
+    left: -690px;
+    top: 65px;
+    display: flex;
+    transition: .6s ease;
+    position: absolute;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.exibir {
+    left: 0px !important;
+    transition: .6s ease;
+}
+
+.conteudo {
+    background-color: #f1f1f1;
+    width: 650px;
+    height: 300px;
+}
+
+.aba {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 50px;
+    background-color: rgba(128, 128, 128, 0.2);
+    border-radius: 0px 7px 7px 0px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+/* Timer */
+
+.cronometro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.tituloCronometro {
+    color: #175cff;
+}
+
+.timerCronometro {
+    display: flex;
+    color: #333;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+
+.botoesDiv{
+    display: flex;
+    gap: 10px;
+}
+
+.btn {
+    padding: 7px 16px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    transition: all .2s ease-in-out;
+}
+
+.btnIniciar{
+    background-color: #175cff;
+    color: white;
+}
+
+.btnParar, .btnContinuar{
+    display: none;
+}
